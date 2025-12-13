@@ -62,7 +62,7 @@ module tt_um_galaguna_NanoSys_fit (
     assign uo_out = out8b;
     assign uio_oe  = 8'b10001111;
     assign uio_out[3:0] = out4b;
-    assign uio_out[6:4] = 3'bz;
+    assign uio_out[6:4] = 3'b000;
     assign uio_out[7] = spi_miso;
 
   // List all unused inputs to prevent warnings
