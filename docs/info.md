@@ -45,6 +45,7 @@ The arithmetic instructions affect the values of the following flags:
 -	N32: 32 bits negative
 -	O32: 32 bits overflow
 -	CO32: 32 bits catastrophic overflow
+
 Z16, N16, O16 and CO16 flags are set based on the 16 least significant bits of R register, while Z32, N32, O32 and CO32 flags are set based on the whole R register. The catastrophic overflow is set when the result sign does not correspond with the expected. The logic instructions only affect the Z16 and Z32 flags.
 
 The architecture includes the following registers:
@@ -62,6 +63,7 @@ The architecture includes the following registers:
 Additionally, the architecture includes the following internal registers that are not directly accessible by the user:
 -	F register: 8-bit Flags register
 -	Instruction, H and L registers: 8-bit registers, used at instruction decode process to store op code and parameters values
+  
 In this foundry implementation (with Tiny tapeout initiative), due to physical space restrictions, the available memory resources are the following:
 -	256 ROM bytes
 -	32 RAM words
