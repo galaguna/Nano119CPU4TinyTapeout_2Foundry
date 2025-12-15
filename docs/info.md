@@ -67,7 +67,7 @@ In this foundry implementation (with Tiny tapeout initiative), due to physical s
 -	32 RAM words
 -	16 stack words
 
-![Figure-5](Implemented_Memory.png)
+![Figure-5](Implemented_Memory.PNG)
  
 ### Program memory organization
 The CPU has 12-bit instruction pointer capable of addressing a 4k x 8 program. The reset vector is at 0x0000, while the interrupt vectors are at 0xFF7, 0xFFA and 0xFFD, for Int2, Int1 and Int0, respectively.
