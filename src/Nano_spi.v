@@ -1,5 +1,5 @@
 //=============================
-// Nano_spi_ok.v
+// Nano_spi.v
 //=============================
 //
 // El hardware sintetizado fue probado con el reloj del sistema 
@@ -16,7 +16,7 @@
 // Author: Gerardo Laguna
 // UAM lerma
 // Mexico
-// 9/12/2025
+// 15/12/2025
 //=============================================================================
 
 module slave_spi4nano
